@@ -1,0 +1,628 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/** ------------------ Boot CSS ------------------ **/
+
+.center {
+  max-width: 1280px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+.w75 {
+  padding: 0 10px;
+  width: 75%;
+}
+.w66 {
+  padding: 0 10px;
+  width: 66.6%;
+}
+.w60 {
+  padding: 0 10px;
+  width: 60%;
+}
+.w50 {
+  padding: 0 10px;
+  width: 50%;
+}
+.w40 {
+  padding: 0 10px;
+  width: 40%;
+}
+
+.w33 {
+  width: 33.3%;
+  padding: 0 10px;
+}
+
+.w25 {
+  width: 25%;
+  padding: 0 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+/** ------------------ SECTION HEADER ------------------ **/
+
+header {
+  width: 100%;
+  padding: 20px 25px;
+  /*background: linear-gradient(45deg, #000000, #3b3a3a);*/
+  background-image: url("../images/img-bannerprincipal.png");
+  background-attachment: fixed;
+}
+header h1 {
+  color: white;
+  font-family: "Righteous", arial, sans-serif;
+  font-size: 23px;
+  margin-top: 7px;
+}
+
+nav.mobile {
+  display: none;
+}
+
+.logo b {
+  margin-left: 12px;
+  font-family: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  color: gray;
+}
+
+nav.desktop ul {
+  position: relative;
+  top: 11px;
+  list-style-type: none;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo i {
+  font-size: 18px;
+  color: gray;
+}
+
+nav.desktop li {
+  padding: 0 30px;
+  font-size: 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav.desktop a {
+  color: #fff;
+  font-family: "Open Sans", arial, sans-serif;
+  text-decoration: none;
+}
+nav.desktop a:hover {
+  color: #5436bb;
+}
+
+.redes-sociais-header {
+  color: white;
+  font-size: 25px;
+}
+.redes-sociais-header i {
+  padding-right: 15px;
+  cursor: pointer;
+}
+.redes-sociais-header a {
+  color: #fff;
+}
+
+/**------------------ SECTION banner-principal ------------------**/
+
+.banner-principal {
+  background-position: center;
+  padding: 40px 2% 60px 2%;
+  color: white;
+  background-image: url("../images/img-bannerprincipal.png");
+  background-attachment: fixed;
+}
+.img-ebook {
+  margin-top: 30px;
+  text-align: right;
+}
+.texto-ebook {
+  padding-left: 30px;
+}
+.texto-ebook h3 {
+  max-width: 500px;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+  font-weight: 300;
+  margin-top: 70px;
+}
+.texto-ebook p {
+  font-size: 15px;
+  text-align: left;
+  font-weight: 700;
+  color: white;
+}
+form {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+form input[type="email"] {
+  width: 400px;
+  height: 60px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  border-radius: 7px;
+  border: 0;
+}
+form input[type="email"]:hover {
+  border: 3px solid #198ed1;
+  padding-left: 12px;
+}
+form input[type="submit"] {
+  width: 300px;
+  height: 65px;
+  margin-left: -70px;
+  background: #fff;
+  border: 0;
+  border-bottom: 5px solid gray;
+  color: #000;
+  font-size: 22px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Righteous", arial;
+}
+form input[type="submit"]:hover {
+  padding-left: 10px;
+}
+.banner-principal form p {
+  margin-top: 5px;
+}
+
+hr {
+  width: 100%;
+  background-color: #fff;
+  height: 7px;
+  border: 0;
+}
+
+/* ---------- SECTION APRESENTACAO ----------- */
+
+.apresentacao {
+  padding: 40px 2%;
+}
+
+.img-apresentacao {
+  text-align: center;
+}
+
+.texto-apresentacao h1 {
+  font-size: 30px;
+  color: black;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin: 90px 0 35px 0;
+}
+.texto-apresentacao b {
+  color: #5fd474;
+}
+.texto-apresentacao p {
+  font-size: 20px;
+  color: #a9b0c8;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+.texto-apresentacao button,
+.texto-devmarket button,
+.texto-starcoders button,
+.texto-blog button,
+.livro-ecti button {
+  width: 300px;
+  padding: 10px;
+  background: #5fd474;
+  border: 0;
+  border-bottom: 5px solid #46b45a;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Righteous", arial;
+}
+
+/* ----------- SECTION DEVMARKET ------------- */
+
+.devmarket {
+  padding: 60px 2%;
+  background-color: #e1e4e8;
+  text-align: left;
+}
+
+.texto-devmarket h1 {
+  font-size: 30px;
+  color: black;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin: 50px 0 35px 0;
+}
+.texto-devmarket b {
+  color: #5fd474;
+}
+.texto-devmarket p {
+  font-size: 20px;
+  color: #a9b0c8;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+/* ------------ SECTION STARCODERS ------------- */
+
+.starcoders {
+  padding: 80px 2%;
+  background-image: url("../images/img-bannerprincipal.png");
+  background-attachment: fixed;
+  text-align: left;
+}
+.img-starcoders {
+  text-align: right;
+}
+.texto-starcoders {
+  padding-left: 60px;
+}
+
+.texto-starcoders h1 {
+  font-size: 30px;
+  color: white;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin: 50px 0 35px 0;
+}
+.texto-starcoders b {
+  color: #5fd474;
+}
+.texto-starcoders p {
+  font-size: 20px;
+  color: #a9b0c8;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+/* ------------ SECTION BLOG ------------- */
+
+.blog {
+  padding: 50px 2% 70px 2%;
+  background-color: #e1e4e8;
+  text-align: left;
+}
+.img-blog {
+  text-align: right;
+}
+.img-blog img {
+  margin-top: 30px;
+}
+.texto-blog {
+  padding-left: 60px;
+}
+
+.texto-blog h1 {
+  font-size: 30px;
+  color: black;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin: 50px 0 35px 0;
+}
+.texto-blog b {
+  color: #5fd474;
+}
+.texto-blog p {
+  font-size: 20px;
+  color: #a9b0c8;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+/* ------------ SECTION LIVRO-ECTI ------------- */
+
+.livro-ecti {
+  padding: 40px 2% 80px 2%;
+  text-align: left;
+}
+.img-livro-ecti {
+  text-align: center;
+}
+.img-livro-ecti img {
+  margin-top: 40px;
+}
+.texto-livro-ecti {
+  padding-left: 60px;
+}
+
+.texto-livro-ecti h1 {
+  font-size: 30px;
+  color: black;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin: 50px 0 35px 0;
+}
+.texto-livro-ecti b {
+  color: #5fd474;
+}
+.texto-livro-ecti p {
+  font-size: 20px;
+  color: #a9b0c8;
+  font-size: "Open Sans", arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+/* ----------- SECTION REDES SOCIAIS ------------- */
+
+.redes-sociais {
+  padding: 40px;
+}
+
+.img-redes-sociais {
+  text-align: right;
+  padding-right: 40px;
+}
+.img-redes-sociais img {
+  margin-top: -70px;
+}
+
+.texto-redes-sociais {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 80px;
+}
+.texto-redes-sociais i {
+  font-size: 70px;
+  color: black;
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+/* ------------ SECTION BACKGROUND BLACK --------- */
+
+.background-black {
+  padding: 30px;
+  background-image: url("../images/img-bannerprincipal.png");
+  background-attachment: fixed;
+}
+
+/* ---------- FOOTER ------------ */
+
+footer {
+  width: 100%;
+  padding: 40px 25px;
+  background: linear-gradient(90deg, #000000, #3b3a3a);
+}
+
+footer p {
+  color: white;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+}
+
+/** --------- PAGINA DE ERRO 404 ------------- */
+
+.pagina-404 {
+  padding: 40px 100px 70px 100px;
+}
+.pagina-404 h1 {
+  margin-top: 130px;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #c9170a;
+}
+.pagina-404 p {
+  margin-top: 20px;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.pagina-404 h3 {
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Open Sans", arial, sans-serif;
+}
+.pagina-404 button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #5fd474;
+  border: 0;
+  border-bottom: 5px solid #46b45a;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Righteous", arial;
+}
+
+/* -------------- MEDIA SCREENS ---------------- */
+
+@media screen and (max-width: 1150px) {
+  nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block;
+  }
+  .botao-menu-mobile {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+  nav.mobile ul {
+    display: none;
+    top: 70px;
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  nav.mobile li {
+    font-weight: 300;
+    width: 100%;
+    display: block;
+    background-color: #131314;
+    border-bottom: 1px solid rgb(50, 50, 50);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  nav.mobile li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: "Righteous", arial;
+  }
+  .botao-menu-mobile b {
+    font-size: 15px;
+    font-family: "Open Sans", arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .w75 {
+    padding: 20px;
+    width: 100%;
+  }
+  .w66 {
+    padding: 20px;
+    width: 100%;
+  }
+  .w60 {
+    padding: 20px;
+    width: 100%;
+  }
+  .w50 {
+    padding: 0px;
+    width: 100%;
+  }
+  .w40 {
+    padding: 20px;
+    width: 100%;
+  }
+  .w33 {
+    width: 100%;
+    padding: 20px;
+  }
+  .w25 {
+    width: 100%;
+    padding: 20px;
+  }
+  .banner-principal {
+    text-align: center;
+  }
+  .img-ebook {
+    text-align: center;
+  }
+  .img-ebook img {
+    width: 70%;
+    margin-top: -30px;
+  }
+  .texto-ebook h3 {
+    margin-top: 10px;
+  }
+  form input[type="email"] {
+    width: 90%;
+  }
+  form input[type="submit"] {
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .img-devmarket,
+  .img-starcoders,
+  .img-blog,
+  .img-livro-ecti,
+  .img-redes-sociais {
+    text-align: center;
+  }
+  .img-devmarket img,
+  .img-starcoders img,
+  .img-blog img,
+  .img-livro-ecti img,
+  .img-redes-sociais img {
+    width: 80%;
+  }
+  .img-redes-sociais {
+    margin-bottom: 35px;
+  }
+  .texto-apresentacao,
+  .texto-devmarket,
+  .texto-starcoders,
+  .texto-blog,
+  .texto-livro-ecti,
+  .texto-redes-sociais {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  header {
+    background-attachment: scroll;
+  }
+  header h1 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .texto-ebook h3 {
+    font-size: 22px;
+  }
+  .apresentacao {
+    padding: 20px 2%;
+  }
+  .texto-apresentacao h1 {
+    margin: 30px 0 30px 0;
+  }
+  .texto-redes-sociais i {
+    font-size: 45px;
+    text-align: center;
+    padding-left: 20px;
+  }
+  .botao-menu-mobile b {
+    display: none;
+  }
+  .redes-sociais-header {
+    display: none;
+  }
+  .mobile {
+    float: right;
+  }
+  .logo b {
+    display: none;
+  }
+}
