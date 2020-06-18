@@ -45,8 +45,6 @@
 
 ?>
 
-<?php new Email(); ?>
-
 <header>
 	
 		<div class="logo left">
