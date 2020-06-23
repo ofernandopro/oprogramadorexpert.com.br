@@ -10,9 +10,9 @@
 
 	<meta charset="utf-8" />
 
-	<meta name="theme-color" content="black">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="msapplication-navbutton-color" content="black">
+	<meta name="theme-color" content="#7d3de3">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#7d3de3">
+	<meta name="msapplication-navbutton-color" content="#7d3de3">
 
 	<link rel="stylesheet" type="text/css" href="<?php echo INCLUDE_PATH; ?>estilo/style.css" />
 	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
@@ -45,10 +45,11 @@
 
 ?>
 
+
 <header>
 	
 		<div class="logo left">
-			<!--<img class="left" src="images/img-logo.png" width="55px"/>-->
+			<!--<img class="left" src="images/img-logo.png" width="40px"/>-->
 			<a class="left" href="<?php echo INCLUDE_PATH; ?>"><h1> O PROGRAMADOR EXPERT <b> | </b></h1></a>
 		</div> <!--logo-->
 
